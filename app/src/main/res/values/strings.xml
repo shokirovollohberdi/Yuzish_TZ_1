@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Yuzish TZ</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="work_types">
+        <item>Fillial admini</item>
+        <item>Hisobchi</item>
+        <item>Operator</item>
+        <item>Transport</item>
+        <item>Yuzish</item>
+        <item>Tayorlov</item>
+        <item>Joyida yuvish</item>
+        <item>Saygak</item>
+        <item>SMM hodimi</item>
+    </string-array>
+
+
+    <declare-styleable name="BouncyNestedScrollView">
+        <attr name="overscroll_animation_size" format="float"/>
+        <attr name="fling_animation_size" format="float"/>
+
+        <attr name="bouncy_scrollview_damping_ratio" format="integer">
+            <enum name="DAMPING_RATIO_NO_BOUNCY" value="0" />
+            <enum name="DAMPING_RATIO_LOW_BOUNCY" value="1" />
+            <enum name="DAMPING_RATIO_MEDIUM_BOUNCY" value="2" />
+            <enum name="DAMPING_RATIO_HIGH_BOUNCY" value="3" />
+        </attr>
+        <attr name="bouncy_scrollview_stiffness" format="integer">
+            <enum name="STIFFNESS_VERY_LOW" value="0" />
+            <enum name="STIFFNESS_LOW" value="1" />
+            <enum name="STIFFNESS_MEDIUM" value="2" />
+            <enum name="STIFFNESS_HIGH" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
+

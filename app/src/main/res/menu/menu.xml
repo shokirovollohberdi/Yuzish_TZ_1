@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Asosiy ko'rsatkichlar"
+        android:id="@+id/asosiyKorsatkichlarFragment"
+        android:icon="@drawable/ic_app"
+        />
+
+    <item
+        android:title="Yangi Buyurtma"
+        android:id="@+id/yangiBuyurtmaFragment"
+        android:icon="@drawable/ic_baseline_add_24"
+        />
+
+    <item
+        android:title="Buyurtma qabul qilish"
+        android:id="@+id/buyurtmaQabulQilsihFragment"
+        android:icon="@drawable/ic_delivery_svgrepo_com"
+        />
+
+    <item
+        android:title="Tayyor buyurtmalar"
+        android:id="@+id/tayyorBuyurtmalarFragment"
+        android:icon="@drawable/ic_check_circle"
+        />
+
+    <item
+        android:title="Sklad bo'limi"
+        android:id="@+id/skladFragment"
+        android:icon="@drawable/ic_baseline_warehouse_24"
+        />
+
+    <item
+        android:title="Qarzdorlar bo'limi"
+        android:id="@+id/qarzdorlarFragment"
+        android:icon="@drawable/ic_user_remove_account"
+        />
+
+    <item
+        android:title="Buyurtmalar holati"
+        android:id="@+id/buyurtmalarFragment"
+        android:icon="@drawable/ic_refresh"
+        />
+
+    <item
+        android:title="Sozlamalar"
+        android:id="@+id/sozlamalarFragment"
+        android:icon="@drawable/ic_baseline_settings_24"
+        />
+
+
+
+
+
+</menu>

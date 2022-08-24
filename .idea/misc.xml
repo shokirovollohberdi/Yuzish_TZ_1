@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable-v24/back_of_edittext.xml" value="0.185" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable-v24/dark_blue_stroke.xml" value="0.155" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable-v24/orange_stroke.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/back_of_bottom_sheet.xml" value="0.1355" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/back_of_profile.xml" value="0.168" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/background_of_bottom_sheet.xml" value="0.108" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/background_of_edit_text.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/bacl_of_call_button.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/data_button_background.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/from_to_button_background.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/green_stroke.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic__operator.xml" value="0.186" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_add_user.xml" value="0.17" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_app.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.1355" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_calendar_month_24.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_cancel_24.xml" value="0.17" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_check_24.xml" value="0.1555" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_filter_alt_24.xml" value="0.132" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.1555" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.17" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_payment_24.xml" value="0.21" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.17" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1355" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_sort_24.xml" value="0.1555" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_baseline_warehouse_24.xml" value="0.1085" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_cancel.xml" value="0.155" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_check_circle.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_check_circle_svgrepo.xml" value="0.155" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_checked_svgrepo_com.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_comment.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_delivery_svgrepo_com.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_document_add.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_edit_person.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_money.xml" value="0.132" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_operator.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_operator_icon_png_favpng_lnwknz3e77v11hfgqj9f46pqh.xml" value="0.1345" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_person.xml" value="0.1555" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_person_svgrepo_com.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_profile.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_refresh.xml" value="0.21" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_right_arrow.xml" value="0.1355" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_settings.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_telephone.xml" value="0.1555" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_time.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_time_left.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_unblock_user.xml" value="0.1" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_unverified_people.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_user_remove_account.xml" value="0.1" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_user_remove_account_profile_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_user_search.xml" value="0.1015" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/ic_verified_user_account_profile_avatar_svgrepo_com.xml" value="0.1" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/drawable/red_stroke.xml" value="0.113" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/activity_header_layout.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/base_korsatkich.xml" value="0.2015625" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/blocked_hodimlar_rv.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/buyurtma_bekor_qilindi_rv.xml" value="0.2015625" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/buyurtma_olib_kelindi_rv.xml" value="0.2015625" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/buyurtma_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/buyurtmalar_holati_ichki_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/buyurtmalar_holati_rv.xml" value="0.33" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/child_group.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/dialog_blocked_employees.xml" value="0.2015625" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/dialog_info_buyurtma.xml" value="0.33" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/dropdown_item.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/filter_dialog.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_add_hodim.xml" value="0.2" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_add_new_mijoz.xml" value="0.2" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_asosiy_korsatkichlar.xml" value="0.33" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_buyurtma_bekor_qilindi_.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_buyurtma_olib_kelindi.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_buyurtma_qabul_qilsih.xml" value="0.19" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_buyurtmalar.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_edit_hodim.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_haqdorlarroyhati.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_hodimlar.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_info_buyurtma.xml" value="0.21373257614868352" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_k_p_ihisob.xml" value="0.2" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_kechildi.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_kunlik_maosh.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_mahsulot_olindi.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_mijozroyhatga_olindi.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_olingan_buyurtma.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_olingan_maosh.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_qarzdorlar.xml" value="0.18" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_qarzlar.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_qayta_yuvishga_olindi.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_qongiroqlar.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_sklad.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_sozlamalar.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_tayyor_buyurtmalar.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_topshirildi.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/fragment_yangi_buyurtma.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/header_layout.xml" value="0.33" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/hodimlar_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/info_buyurtma_rv.xml" value="0.33" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/info_buyurtmalar_ichi_rv.xml" value="0.33" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/item_group.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/kechilgan_pullar_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/kpi_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/kunlik_maosh_rv.xml" value="0.2015625" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/mahsulot_olindi_rv.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/mijoz_royhatga_olindi_rv.xml" value="0.33" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/olingan_buyurtmalar_rv.xml" value="0.2" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/qarzlar_korsatkichi_rv.xml" value="0.5" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/qarzlar_rv.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/qayta_yuvish_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/qidirilgan_buyurtmalar.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/qidirilgan_buyurtmalar_rv.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/qidirilgan_mijozlar_rv.xml" value="0.19948717948717948" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/save_or_unsave_dialog.xml" value="0.22" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/sklad_buyurtmalar.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/sklad_buyurtmalar_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/tartiblangan_buyurtma_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/tartiblanmagan_buyurtma_rv.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/work_types_dropdown.xml" value="0.20260416666666667" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/yakunlanmagan_buyurtmalar_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/yangi_buyurtmalar_rv.xml" value="0.25" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/yuklanmagan_buyurtmalar_rv.xml" value="0.151953125" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/layout/yuklanmagan_qarzlar_rv.xml" value="0.33" />
+        <entry key="..\:/Android Studio/expense_panner/YuzishTZ/app/src/main/res/menu/menu.xml" value="0.20260416666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".qarzlarFragment">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_title"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Qarzlar ko`rsatkichi"-->
+<!--        android:textColor="@color/textColor"-->
+<!--        android:textSize="@dimen/_15ssp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.1"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.01" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tv_info"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:padding="@dimen/_5sdp"-->
+<!--        android:text="08-08-2022 || sanada berilgan nasiyalar"-->
+<!--        android:textColor="@color/textColor"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tv_title"-->
+<!--        app:layout_constraintVertical_bias="0.02" />-->
+
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/btnJami"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="@dimen/_35sdp"-->
+<!--        android:backgroundTint="@color/blue"-->
+<!--        android:text="Jami: 12000 so'm"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/white"-->
+<!--        app:cornerRadius="@dimen/_10sdp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@id/tv_info"-->
+<!--        app:layout_constraintVertical_bias="0.01" />-->
+
+
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/rv"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintLeft_toLeftOf="parent"-->
+<!--        app:layout_constraintRight_toRightOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/btnJami"-->
+<!--        tools:listitem="@layout/qarzlar_korsatkichi_rv" />-->
+
+
+    <com.factor.bouncy.BouncyNestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:allow_drag_reorder="true"
+        app:allow_item_swipe="true"
+        app:recyclerview_stiffness="STIFFNESS_HIGH">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_3sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Qarzlar ko`rsatkichi"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_info"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:text="08-08-2022 || sanada berilgan nasiyalar"
+                android:textColor="@color/textColor" />
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnJami"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_35sdp"
+                android:backgroundTint="@color/blue"
+                android:text="Jami: 12000 so'm"
+                android:textAllCaps="false"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                app:cornerRadius="@dimen/_10sdp" />
+
+
+            <com.factor.bouncy.BouncyRecyclerView
+                android:id="@+id/rv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:allow_drag_reorder="true"
+                app:allow_item_swipe="true"
+                app:recyclerview_damping_ratio="DAMPING_RATIO_LOW_BOUNCY"
+                app:recyclerview_fling_animation_size=".7"
+                app:recyclerview_overscroll_animation_size=".7"
+                app:recyclerview_stiffness="STIFFNESS_MEDIUM"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:listitem="@layout/qarzlar_korsatkichi_rv" />
+
+
+        </LinearLayout>
+
+
+    </com.factor.bouncy.BouncyNestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

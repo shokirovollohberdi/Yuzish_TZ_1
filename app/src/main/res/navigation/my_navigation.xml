@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_navigation"
+    app:startDestination="@id/asosiyKorsatkichlarFragment">
+
+    <fragment
+        android:id="@+id/asosiyKorsatkichlarFragment"
+        android:name="uz.shokirov.yuzishtz.AsosiyKorsatkichlarFragment"
+        android:label="fragment_asosiy_korsatkichlar"
+        tools:layout="@layout/fragment_asosiy_korsatkichlar" />
+    <fragment
+        android:id="@+id/yangiBuyurtmaFragment"
+        android:name="uz.shokirov.yuzishtz.YangiBuyurtmaFragment"
+        android:label="fragment_yangi_buyurtma"
+        tools:layout="@layout/fragment_yangi_buyurtma" />
+    <fragment
+        android:id="@+id/sozlamalarFragment"
+        android:name="uz.shokirov.yuzishtz.SozlamalarFragment"
+        android:label="fragment_sozlamalar"
+        tools:layout="@layout/fragment_sozlamalar" />
+    <fragment
+        android:id="@+id/buyurtmaQabulQilsihFragment"
+        android:name="uz.shokirov.yuzishtz.BuyurtmaQabulQilsihFragment"
+        android:label="fragment_buyurtma_qabul_qilsih"
+        tools:layout="@layout/fragment_buyurtma_qabul_qilsih" />
+    <fragment
+        android:id="@+id/tayyorBuyurtmalarFragment"
+        android:name="uz.shokirov.yuzishtz.TayyorBuyurtmalarFragment"
+        android:label="fragment_tayyor_buyurtmalar"
+        tools:layout="@layout/fragment_tayyor_buyurtmalar" >
+        <action
+            android:id="@+id/action_tayyorBuyurtmalarFragment_to_infoBuyurtmaFragment"
+            app:destination="@id/infoBuyurtmaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/skladFragment"
+        android:name="uz.shokirov.yuzishtz.SkladFragment"
+        android:label="fragment_sklad"
+        tools:layout="@layout/fragment_sklad" />
+    <fragment
+        android:id="@+id/addNewMijozFragment"
+        android:name="uz.shokirov.yuzishtz.AddNewMijozFragment"
+        android:label="fragment_add_new_mijoz"
+        tools:layout="@layout/fragment_add_new_mijoz" />
+    <fragment
+        android:id="@+id/qarzdorlarFragment"
+        android:name="uz.shokirov.yuzishtz.QarzdorlarFragment"
+        android:label="fragment_qarzdorlar"
+        tools:layout="@layout/fragment_qarzdorlar" />
+    <fragment
+        android:id="@+id/buyurtmalarFragment"
+        android:name="uz.shokirov.yuzishtz.BuyurtmalarFragment"
+        android:label="fragment_buyurtmalar"
+        tools:layout="@layout/fragment_buyurtmalar" />
+    <fragment
+        android:id="@+id/KPIhisobFragment"
+        android:name="uz.shokirov.yuzishtz.KPIhisobFragment"
+        android:label="fragment_k_p_ihisob"
+        tools:layout="@layout/fragment_k_p_ihisob" />
+    <fragment
+        android:id="@+id/mijozroyhatgaOlindiFragment"
+        android:name="uz.shokirov.yuzishtz.MijozroyhatgaOlindiFragment"
+        android:label="fragment_mijozroyhatga_olindi"
+        tools:layout="@layout/fragment_mijozroyhatga_olindi" />
+    <fragment
+        android:id="@+id/olinganBuyurtmaFragment"
+        android:name="uz.shokirov.yuzishtz.OlinganBuyurtmaFragment"
+        android:label="fragment_olingan_buyurtma"
+        tools:layout="@layout/fragment_olingan_buyurtma" />
+    <fragment
+        android:id="@+id/buyurtma_bekor_qilindi_Fragment"
+        android:name="uz.shokirov.yuzishtz.Buyurtma_bekor_qilindi_Fragment"
+        android:label="fragment_buyurtma_bekor_qilindi_"
+        tools:layout="@layout/fragment_buyurtma_bekor_qilindi_" />
+    <fragment
+        android:id="@+id/mahsulotOlindiFragment"
+        android:name="uz.shokirov.yuzishtz.MahsulotOlindiFragment"
+        android:label="fragment_mahsulot_olindi"
+        tools:layout="@layout/fragment_mahsulot_olindi" />
+    <fragment
+        android:id="@+id/buyurtmaOlibKelindiFragment"
+        android:name="uz.shokirov.yuzishtz.BuyurtmaOlibKelindiFragment"
+        android:label="fragment_buyurtma_olib_kelindi"
+        tools:layout="@layout/fragment_buyurtma_olib_kelindi" />
+    <fragment
+        android:id="@+id/topshirildiFragment"
+        android:name="uz.shokirov.yuzishtz.TopshirildiFragment"
+        android:label="fragment_topshirildi"
+        tools:layout="@layout/fragment_topshirildi" />
+    <fragment
+        android:id="@+id/qarzlarFragment"
+        android:name="uz.shokirov.yuzishtz.qarzlarFragment"
+        android:label="fragment_qarzlar"
+        tools:layout="@layout/fragment_qarzlar" />
+    <fragment
+        android:id="@+id/kechildiFragment"
+        android:name="uz.shokirov.yuzishtz.kechildiFragment"
+        android:label="fragment_kechildi"
+        tools:layout="@layout/fragment_kechildi" />
+    <fragment
+        android:id="@+id/kunlikMaoshFragment"
+        android:name="uz.shokirov.yuzishtz.kunlikMaoshFragment"
+        android:label="fragment_kunlik_maosh"
+        tools:layout="@layout/fragment_kunlik_maosh" />
+    <fragment
+        android:id="@+id/olinganMaoshFragment"
+        android:name="uz.shokirov.yuzishtz.OlinganMaoshFragment"
+        android:label="fragment_olingan_maosh"
+        tools:layout="@layout/fragment_olingan_maosh" />
+    <fragment
+        android:id="@+id/qaytaYuvishgaOlindiFragment"
+        android:name="uz.shokirov.yuzishtz.qaytaYuvishgaOlindiFragment"
+        android:label="fragment_qayta_yuvishga_olindi"
+        tools:layout="@layout/fragment_qayta_yuvishga_olindi" />
+    <fragment
+        android:id="@+id/infoBuyurtmaFragment"
+        android:name="uz.shokirov.yuzishtz.InfoBuyurtmaFragment"
+        android:label="fragment_info_buyurtma"
+        tools:layout="@layout/fragment_info_buyurtma" />
+</navigation>
