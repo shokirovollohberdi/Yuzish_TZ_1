@@ -7,6 +7,7 @@ import uz.shokirov.yuzishtz.model.LoginModel
 import uz.shokirov.yuzishtz.model.Orders
 import uz.shokirov.yuzishtz.model.SearchMijoz
 import uz.shokirov.yuzishtz.model.buyurtma_topshirish.Buyurtma_topshirish
+import uz.shokirov.yuzishtz.model.warehouse_orders.Warehouse_orders
 
 interface AuthService {
 
@@ -41,6 +42,14 @@ interface AuthService {
     fun ready_order_view(
         @Path("order_id") order_id: String
     ): Call<Buyurtma_topshirish>
+
+     @GET("orders_ombor/")
+    fun orders_ombor(
+        @Query("page") page: Int
+    ): Call<List<Warehouse_orders>>
+
+
+
 
 
 }

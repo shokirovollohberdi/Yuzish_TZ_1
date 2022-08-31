@@ -25,8 +25,8 @@ import kotlin.collections.ArrayList
 class InfoBuyurtmaFragment : Fragment() {
     lateinit var binding: FragmentInfoBuyurtmaBinding
     lateinit var buyurtmalar: ArrayList<Buyurtmalar>
-    lateinit var buyurtma:Buyurtma_topshirish
-    lateinit var order:Orders
+    lateinit var buyurtma: Buyurtma_topshirish
+    lateinit var order: Orders
     private val TAG = "InfoBuyurtmaFragment"
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -39,15 +39,16 @@ class InfoBuyurtmaFragment : Fragment() {
         getList(order.order_id)
 
 
-       // binding.tvAllPayment.text = "Jami summa: ${buyurtma}"
+        // binding.tvAllPayment.text = "Jami summa: ${buyurtma}"
 
         try {
-            binding.tvLocation.text = getCompleteAddressString(order.geoplugin_latitude.toDouble(),order.geoplugin_longitude.toDouble())
-        }catch (e:Exception){
+            binding.tvLocation.text = getCompleteAddressString(
+                order.geoplugin_latitude.toDouble(),
+                order.geoplugin_longitude.toDouble()
+            )?.trim()
+        } catch (e: Exception) {
             binding.tvLocation.text = "-"
         }
-
-
 
 
 
@@ -55,7 +56,11 @@ class InfoBuyurtmaFragment : Fragment() {
 
 
         binding.btnTopshirildi.setOnClickListener {
-            topshirish(order.order_id,buyurtma.jami_summa,binding.typeAutocomplete.text.toString())
+            topshirish(
+                order.order_id,
+                buyurtma.jami_summa,
+                binding.typeAutocomplete.text.toString()
+            )
         }
 
 
@@ -87,16 +92,18 @@ class InfoBuyurtmaFragment : Fragment() {
     }
 
     private fun topshirish(orderId: Int, jamiSumma: Int, type: String) {
-        RetrofitClient.getRetrofit().zakarTopshirish(orderId,jamiSumma,type).enqueue(object :Callback<Any>{
-            override fun onResponse(call: Call<Any>, response: Response<Any>) {
+        RetrofitClient.getRetrofit().zakarTopshirish(orderId, jamiSumma, type)
+            .enqueue(object : Callback<Any> {
+                override fun onResponse(call: Call<Any>, response: Response<Any>) {
+                    Log.d(TAG, "onResponse: ${response.code()}")
+                    Log.d(TAG, "onResponse: ${response.body()}")
+                }
 
-            }
+                override fun onFailure(call: Call<Any>, t: Throwable) {
 
-            override fun onFailure(call: Call<Any>, t: Throwable) {
+                }
 
-            }
-
-        })
+            })
 
     }
 
@@ -150,7 +157,7 @@ class InfoBuyurtmaFragment : Fragment() {
         binding.tvKvitansiyaNumber.text = "KVITANSIYA №: " + order.nomer.toString()
         binding.tvName.text = order.costumer?.costumer_name
         binding.tvNumber.text = order.costumer?.costumer_phone_1
-        binding.tvJami.text = "Jami: "+buyurtma.jami_soni.toString()
+        binding.tvJami.text = "Jami: " + buyurtma.jami_soni.toString()
         binding.tvAllSumma.text = "Jami summa: ${buyurtma.jami_summa}"
     }
 
